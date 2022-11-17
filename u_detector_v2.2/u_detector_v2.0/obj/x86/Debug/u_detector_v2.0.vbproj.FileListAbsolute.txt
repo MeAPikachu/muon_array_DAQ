@@ -1,0 +1,42 @@
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\bin\Debug\u_detector_v2.0.exe
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\bin\Debug\u_detector_v2.0.pdb
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\bin\Debug\u_detector_v2.0.xml
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\bin\Debug\ZedGraph.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2._0.Form1.resources
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2._0.Resources.resources
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.GenerateResource.Cache
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.exe
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.xml
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.pdb
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\bin\Debug\Interop.MSCommLib.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\bin\Debug\AxInterop.MSCommLib.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\Interop.MSCommLib.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\AxInterop.MSCommLib.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.ResolveComReference.cache
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbprojResolveAssemblyReference.cache
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.0\u_detector_v2.0\obj\x86\Debug\Interop.ADOX.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\Interop.ADOX.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\Interop.MSCommLib.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\AxInterop.MSCommLib.dll
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.ResolveComReference.cache
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.exe
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.xml
+K:\visual studio 2010\u_detector_v2.0\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.pdb
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\bin\Debug\u_detector_v2.0.exe
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\bin\Debug\u_detector_v2.0.pdb
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\bin\Debug\u_detector_v2.0.xml
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\bin\Debug\Interop.MSCommLib.dll
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\bin\Debug\AxInterop.MSCommLib.dll
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\Interop.MSCommLib.dll
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\AxInterop.MSCommLib.dll
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.ResolveComReference.cache
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2._0.Form1.resources
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2._0.Resources.resources
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.GenerateResource.cache
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.CoreCompileInputs.cache
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbproj.CopyComplete
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.exe
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.xml
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.pdb
+C:\Users\CHEN\Desktop\u_detector_v2.2\u_detector_v2.0\obj\x86\Debug\u_detector_v2.0.vbprojAssemblyReference.cache
