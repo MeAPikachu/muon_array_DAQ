@@ -38,6 +38,7 @@ class ASIC():
     
     def close_connection(self):
         self.conn.close()
+        self.communicate.close()
     
     def check_communication(self): #check the communication with the device  
         try : 
@@ -85,6 +86,7 @@ if __name__ ==  "__main__" :
         print("======ASIC python driver======")
 
     asic=ASIC()
+    asic.initial_connection()
     asic.main_loop()
     asic.close_connection()
     
