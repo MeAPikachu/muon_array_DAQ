@@ -19,13 +19,10 @@ class ASIC():
         self.DataDigi=int(os.getenv("muon_array_device_datadigi"))
         self.ParityDigi=os.getenv("muon_array_device_paritydigi")
         self.StopDigi=int(os.getenv("muon_array_device_stopdigi"))
-        
-    def initialize_communicate(self):
-        # Set up the serial communication between the 
-        self.communicate=serial.Serial(self.port,self.Baud,self.DataDigi,self.ParityDigi,self.StopDigi)
 
     def initial_connection(self):
-        # Initialize the maria database 
+        # Initialize the maria database connection
+        # Here the connection refers to the database and the communicate refers to the serial 
         try :
             self.conn=mariadb.connect(user=self.username,password=self.password,host=self.host,port=self.port,database=self.dbname)
         except mariadb.Error as e:
@@ -35,12 +32,14 @@ class ASIC():
         self.cur.execute("use local")
         # cur is short for cursor and conn is short for connection
         # Different from pymongo , mariadb is to convey string command that should be used by the command line  
-    
     def close_connection(self):
         self.conn.close()
-        self.communicate.close()
-    
-    def check_communication(self): #check the communication with the device  
+
+
+    def initialize_communicate(self):
+        # Set up the serial communication between the Raspberry Pi and the device 
+        self.communicate=serial.Serial(self.port,self.Baud,self.DataDigi,self.ParityDigi,self.StopDigi)
+    def check_communicate(self): #check the communication with the device  
         try : 
             if (self.communicate.isOpen()==False) :
                 self.initialize_communicate()
@@ -49,6 +48,12 @@ class ASIC():
         # if we reconnect and it still fails , there is something wrong with the system
         if (self.communicate.isOpen()==False) :
             print("Still failed to open the port ???")     
+    def close_communicate(self):
+        self.communicate.close()
+    
+    def hangup(self):
+        self.conn.close()
+        self.communicate.close()
     
     def process_data(self,serial_info): # This function is to process the data and write it into the mysql 
         if ord(serial_info[0])==0: # The first byte indicates that whether or not it is a muon signal 
@@ -62,11 +67,10 @@ class ASIC():
             #the fifth , sixth , seventh byte means the preesure 
             pressure= ord(serial_info[4]) * pow(2,8) + ord(serial_info[5]) + ord(serial_info[6]) *0.1
             self.cur.execute("insert into pressure values ({},{})".format(str(datetime.datetime.now()) ,pressure))
-            
     
+          
     def main_loop(self):
-        self.check_communication()
-        
+        self.check_communicate()
         while True:
             digi_count= self.communicate.inWaiting() 
             if digi_count!=0 : #if we have got some data
@@ -89,5 +93,5 @@ if __name__ ==  "__main__" :
     asic.initial_connection()
     asic.initial_communicate()
     asic.main_loop()
-    asic.close_connection()
+    asic.hangup()
     
