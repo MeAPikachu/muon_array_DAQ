@@ -87,6 +87,7 @@ if __name__ ==  "__main__" :
 
     asic=ASIC()
     asic.initial_connection()
+    asic.initial_communicate()
     asic.main_loop()
     asic.close_connection()
     
