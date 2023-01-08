@@ -26,6 +26,21 @@ grant all privileges on local.* TO 'muon_array_local' ;
 
 
 ## Python dependencies
+
+Install Python3.10.9 manually
+```
+sudo su
+cd /opt
+wget https://www.python.org/ftp/python/3.10.9/Python-3.10.9.tar.xz
+tar -xzf Python-3.10.9.tar.xz
+cd Python-3.10.9
+./configure
+make -j 4
+make install 
+
+```
+
+
 ```
 pip3 install mariadb 
 pip3 install numpy 
