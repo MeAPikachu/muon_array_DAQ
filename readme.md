@@ -32,7 +32,7 @@ Install Python3.10.9 manually
 sudo su
 cd /opt
 wget https://www.python.org/ftp/python/3.10.9/Python-3.10.9.tar.xz
-tar -xzf Python-3.10.9.tar.xz
+tar -xf Python-3.10.9.tar.xz
 cd Python-3.10.9
 ./configure
 make -j 4
