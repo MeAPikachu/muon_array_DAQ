@@ -38,7 +38,7 @@ class ASIC():
 
     def initialize_communicate(self):
         # Set up the serial communication between the Raspberry Pi and the device 
-        self.communicate=serial.Serial(self.port,self.Baud,self.DataDigi,self.ParityDigi,self.StopDigi)
+        self.communicate=serial.Serial(self.Port,self.Baud,self.DataDigi,self.ParityDigi,self.StopDigi)
     def check_communicate(self): #check the communication with the device  
         try : 
             if (self.communicate.isOpen()==False) :
