@@ -62,7 +62,7 @@ class ASIC():
             if ord(serial_info[1])==0:
                 temperature= ord(serial_info[2]) + ord(serial_info[3])*0.1  # the third and fourth byte resembles the temperature 
             else :
-                temperature= ord(serial_info[2]) + ord(serial_info[3])*0.1 
+                temperature= -(ord(serial_info[2]) + ord(serial_info[3])*0.1 )
             self.cur.execute("insert into temperature values ({},{})".format(str(datetime.datetime.now()) ,temperature))
             #the fifth , sixth , seventh byte means the preesure 
             pressure= ord(serial_info[4]) * pow(2,8) + ord(serial_info[5]) + ord(serial_info[6]) *0.1
